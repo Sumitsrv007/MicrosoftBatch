@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MicrosoftBatch.Oops
 {
-    class BankDetail
+   /* class BankDetail
     {
         long accountNo;
         String accountType;
@@ -67,5 +67,5 @@ namespace MicrosoftBatch.Oops
             }
             
         }
-    }
+    }*/
 }

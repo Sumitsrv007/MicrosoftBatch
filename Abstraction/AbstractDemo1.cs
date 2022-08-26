@@ -7,7 +7,7 @@ namespace MicrosoftBatch.Abstraction
     abstract class Animal
     {
         public int b = 3;
-        public static int a = 300;//only static variable is allow
+        public static int a = 300;//static variable is allow
         public abstract void show();
         public void MyAnimal()//concret Method
         {

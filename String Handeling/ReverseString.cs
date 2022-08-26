@@ -22,9 +22,9 @@ namespace MicrosoftBatch.String_Handeling
             String st = new string(ch);
             Console.WriteLine(st);*/
 
-            String str = "India is my Country";
-            String reverse = " ";
-            for (int i = 0; i < str.Length; i++)
+            String str = " India is my Country ";
+            String reverse = "";
+            for (int i = str.Length-1; i >0; i--)
             {
                 reverse = reverse+str[i];
             }

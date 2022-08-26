@@ -16,7 +16,7 @@ namespace MicrosoftBatch.Oops.Static
         }
         static void Main(string[] args)
         {
-            StaticConstructor s=new StaticConstructor(200);
+            StaticConstructor s=new StaticConstructor(400);
             StaticConstructor s1 = new StaticConstructor(500);
         }
     }

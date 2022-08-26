@@ -8,12 +8,12 @@ namespace MicrosoftBatch.Abstraction
     {
         public int x = 300;
         public static int y = 100;
-        public Employee(String name)
+        public Employee(String name)//parameterised constructor
         {
             Console.WriteLine("Employee Constructor");
         }
-        public abstract void show();
-        public void MyEmp()
+        public abstract void show();//abstract method
+        public void MyEmp()//default method
         {
             Console.WriteLine("MyEmp Method");
         }
@@ -24,17 +24,17 @@ namespace MicrosoftBatch.Abstraction
             {
                 Console.WriteLine("Manager Constructor");
             }
-           /* public override void show()
-            {
-                Console.WriteLine("Show Method" + " " + b);
-            }*/
-        }
-    class SubManager:Manager
-    {
         public override void show()
         {
-            Console.WriteLine("Show Method of SubManager");
+            Console.WriteLine("Show Method" + " " + x);
         }
+    }
+    class SubManager:Manager
+    {
+        /*public override void show()
+        {
+            Console.WriteLine("Show Method of SubManager");
+        }*/
     }
 
     class AbstractDemo2

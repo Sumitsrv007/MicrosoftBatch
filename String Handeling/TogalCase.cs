@@ -9,7 +9,6 @@ namespace MicrosoftBatch.String_Handeling
         static void Main(string[] args)
         {
             //this program for Lower to Uper case
-
             Console.WriteLine("Enter String:");
             String str = Console.ReadLine();
             String newstr = "";

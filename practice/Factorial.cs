@@ -2,17 +2,20 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MicrosoftBatch.Test_paper1
+namespace MicrosoftBatch.practice
 {
-    class CubeNo
+    class Factorial
     {
         static void Main(string[] args)
         {
-            int a, total;
+            int a,i, p = 1;
             Console.WriteLine("Enter Number");
             a = int.Parse(Console.ReadLine());
-            total = a * a* a;
-            Console.WriteLine(total + " is cube");
+            for(i=1;i<=a;i++)
+            {
+                p = p * i;
+            }
+            Console.WriteLine(a+" Factorial is :"+p);
         }
     }
 }

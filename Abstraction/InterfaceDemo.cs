@@ -6,6 +6,7 @@ namespace MicrosoftBatch.Abstraction
 {
     interface IMoveable
     {
+        
         void show();
         static int x;
         static void Mymethod()
@@ -16,6 +17,7 @@ namespace MicrosoftBatch.Abstraction
         {
             Console.WriteLine("Foo Method");
         }
+       
     }
         class Car:IMoveable
         {

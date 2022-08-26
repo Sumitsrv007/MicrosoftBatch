@@ -9,7 +9,7 @@ namespace MicrosoftBatch.Oops.Encapsulation
         private int id;
         private String name;
         private int salary;
-
+        public int MyProperty { get; set; }
         public int Id
         {
             get { return id; }

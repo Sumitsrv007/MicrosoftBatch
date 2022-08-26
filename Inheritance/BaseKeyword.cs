@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MicrosoftBatch.Inheritance
 {
-    class Animal
+    /*class Animal
     {
         protected int legs = 0;
 
@@ -24,7 +24,7 @@ namespace MicrosoftBatch.Inheritance
     class Dog:Animal
     {
         int legs = 4;
-        public Dog(int x):base(x)//Method calling by base keyword
+        public Dog(int x):base(x)//Constructor calling by base keyword
         {
             Console.WriteLine("X Child "+" "+x);
         }
@@ -48,5 +48,5 @@ namespace MicrosoftBatch.Inheritance
             Animal a1 = new Animal(5000);
 
         }
-    }
+    }*/
 }

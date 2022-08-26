@@ -10,7 +10,7 @@ namespace MicrosoftBatch.String_Handeling
         {
             String str = "C# is Easy";
             String[] str1 = str.Split(" ");
-            String reverse = "";
+            String reverse = " ";
             for(int i=0;i<str1.Length;i++)
             {
                 String word = str1[i];

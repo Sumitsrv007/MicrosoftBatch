@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MicrosoftBatch.Loop
 {
-    class Prime
+   /* class Prime
     {
         static void Main(string[] args)
         {
@@ -55,5 +55,5 @@ namespace MicrosoftBatch.Loop
                 Console.WriteLine("Not prime no.");
             }
         }
-    }
+    }*/
 }
