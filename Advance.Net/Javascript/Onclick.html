@@ -1,0 +1,57 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onclick</title>
+</head>
+<body>
+    Enter Number:<input type="text" id="t1" /></br>
+    Enter Number:<input type="text" id="t2" /></br>
+
+    Result:<input type="text" id="t3" /></br>
+    <input type="button" value="Addition" onclick="Addition()" />
+    <input type="button" value="Subtraction" onclick="Subtract()" />
+    <input type="button" value="Multiplication" onclick="Multiplication()" />
+    <input type="button" value="Subtraction" onclick="Division()" />
+    <b id="b1"></b>
+    <i id="i1"></i>
+    <b id="b2"></b>
+    <i id="i2"></i>
+    <script>
+        function Addition() {
+            var n1 = document.getElementById("t1").value;
+            var n2 = document.getElementById("t2").value;
+            var sum = parseInt(n1) + parseInt(n2);
+            document.getElementById("t3").value = sum;
+            document.getElementById("b1").innerHTML = "Addition is " + sum;
+        }
+
+        function Subtract() {
+            var n1 = document.getElementById("t1").value;
+            var n2 = document.getElementById("t2").value;
+            var sub = parseInt(n1) - parseInt(n2);
+            document.getElementById("t3").value = sub;
+            document.getElementById("i1").innerHTML = "Subtraction is " + sub;
+        }
+
+        function Multiplication() {
+            var n1 = document.getElementById("t1").value;
+            var n2 = document.getElementById("t2").value;
+            var mul = parseInt(n1) * parseInt(n2);
+            document.getElementById("t3").value = mul;
+            document.getElementById("b2").innerHTML = "Multiplication is " + mul;
+        }
+
+        function Division() {
+            var n1 = document.getElementById("t1").value;
+            var n2 = document.getElementById("t2").value;
+            var div = parseInt(n1) / parseInt(n2);
+            document.getElementById("t3").value = div;
+            document.getElementById("i2").innerHTML = "Division is " + div;
+        }
+    </script>
+</body>
+</html>

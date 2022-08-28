@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <script>
+        var text = "red, blue, green, black";
+        var text2 = "Hello to all";
+        var text3 = "Test purpose";
+
+         text2.replace("Hello", "Hi");
+        var res=text2.indexOf('t')
+        document.write(text.length);  // property to get the string lenth
+        var result = text.concat(" ", text2, " ", text3);
+        document.write(result);
+
+        document.write("<br/>" + text.toUpperCase());
+        document.write("<br/>" + text.toLowerCase());
+
+        // trim ->text.trim();  ltrip, rtrim
+        document.write(text.indexOf('b'));
+
+        document.write(text.lastIndexOf('b'));
+        var res = text.slice(3, 8);
+        document.write(res);
+
+        var res1 = text.split(",");
+        console.log(res1);
+
+    </script>
+</body>
+</html>

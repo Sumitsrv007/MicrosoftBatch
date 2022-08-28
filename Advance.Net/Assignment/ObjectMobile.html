@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="d2"></div>
+    <script>
+        var Mobile = {
+            Number:886983547,
+            ImeiNo:110018826262,
+            Band: "B3827",
+            Price:30000,
+            display: function () {
+                return "Number =" + this.Number + " ImeiNo =" + this.ImeiNo + " Band=" + this.Band + "Price="+this.Price;
+            },
+            discount: function () {
+               var dis;
+               dis = Price * 0.10;
+               return dis;
+            },
+        }
+        document.getElementById("d2").innerHTML = Mobile.display();
+
+    </script>
+</body>
+</html>

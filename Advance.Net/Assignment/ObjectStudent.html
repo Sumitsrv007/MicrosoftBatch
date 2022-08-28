@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <div id="dd"></div>
+    <script>
+        var student = {
+            Math:87,
+            Science:98,
+            English:82,
+          
+            total: function () {
+                var sum;
+                var percentage;
+                sum = this.Math + this.Science + this.English;
+                percentage = sum / 3;
+                return percentage;
+               // return sum;
+            },
+        }
+        document.getElementById("dd").innerHTML = student.total();
+
+    </script>
+</body>
+</html>

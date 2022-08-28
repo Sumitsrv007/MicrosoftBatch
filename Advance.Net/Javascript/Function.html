@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+
+    <script>
+         //1 function without parameters & return type
+        function addition() {
+            var x = 10, y = 20;
+            var z = x + y;
+            document.write("addition is " + z);
+        }
+          //calling function
+          addition(10, 20);
+
+        //2  function with parameter & no return type
+        var a = "hello";
+         function addition(a,b) {
+            var c = a + b; // function scope
+            document.write("addition is " + c);
+        }
+        //calling function
+        addition(10, 20);
+        function accept(name, age, salary) {
+
+        }
+         //calling function
+         accept("tushar", 23, 34000);
+
+        //3. function with return type & paramter
+        function add(a, b) {
+            var c = a + b;
+            return c;
+        }
+        //function add(a, b) {
+        //    return a + b;
+        //}
+
+        // call a function
+        var c = add(45, 78);
+        document.write("add " + c);
+
+
+    </script>
+</body>
+</html>
